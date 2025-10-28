@@ -1,0 +1,18 @@
+/***
+COLORS
+https://coolors.co/143d75-487abd-c8e848-a6bc09
+143d75 : dark blue
+487abd : light blue
+c8e848 : light green
+a6bc09 : dark green
+***/
+
+/***************/
+/*****FONTS*****/
+/***************/
+body, p, div{
+    font-family: "MuseoModerno";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "AR One Sans";
+}
