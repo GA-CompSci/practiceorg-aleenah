@@ -16,3 +16,47 @@ body, p, div{
 h1, h2, h3, h4, h5, h6 {
     font-family: "AR One Sans" !important;
 }
+
+.bg-dark {
+    background: #b2c9da !important;
+}
+.bg-green {
+    background: #143d75 !important;
+}
+.btn-primary {
+  background: #ffffff !important;
+  border-color: #143d75;
+  border-radius: 60px;
+  color: #143d75;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px 40px; 
+}
+
+.btn-primary:hover {
+  background: #ffffff !important;
+  border-color: #487abd;
+  border-radius: 60px;
+  color: #5886c2;
+}
+.bg-black {
+    background-color:#c8e848!important;
+}
+.button-circle.button-circle-dark {
+    background: #143d75;
+    color: white;
+}
+.button-circle.button-circle-dark:hover{
+    color:#487abd !important;
+}
+.display-5 {
+    font-size: 3rem;
+    color: #a6bc09;
+}
+.fw-light {
+    font-weight: 300!important;
+    color: #487abd;
+}
+*.text-dark-04 {
+    color: #487bbd75;
+}
