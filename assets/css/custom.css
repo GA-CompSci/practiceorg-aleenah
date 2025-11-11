@@ -60,3 +60,23 @@ h1, h2, h3, h4, h5, h6 {
 *.text-dark-04 {
     color: #487bbd75;
 }
+h4, h6{
+    letter-spacing: -0.3px;
+    line-height: 1.4;
+    color: #a6bc09;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#contact {
+  text-align: center; /* centers text inside each column */
+}
+
+#contact .row {
+  justify-content: center; /* centers the entire row of columns */
+}
+
+.bi bi-arrow-up-short{
+    color: #c8e848;
+
+}
