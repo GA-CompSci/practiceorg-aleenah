@@ -46,9 +46,6 @@ h1, h2, h3, h4, h5, h6 {
     background: #143d75;
     color: white;
 }
-.button-circle.button-circle-dark:hover{
-    color:#487abd !important;
-}
 .display-5 {
     font-size: 3rem;
     color: #a6bc09;
@@ -79,4 +76,56 @@ h4, h6{
 .bi bi-arrow-up-short{
     color: #c8e848;
 
+}
+
+.hoverbox-6 .content {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    backdrop-filter: blur(5px);
+    padding: 10px 16px;
+    color: white;
+}
+
+body, p, div {
+    font-family: "MuseoModerno";
+    color:#c8e848;
+}
+a {
+    color: #143d75;
+    text-decoration: none;
+    -webkit-transition: linear 0.1s;
+    transition: linear 0.1s;
+}
+h2{
+    letter-spacing: -0.3px;
+    line-height: 1.4;
+    color: #143d75;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.button-text-1{
+color:#143d75;
+}
+.button-text-1:hover{
+color:#487abd;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-prev:focus {
+color:#c8e848;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev:focus {
+color:#a6bc09;
+}
+h1{
+    color: #143d75!important;
+    text-shadow: 1px 1px 1px ;
+}
+.bg-black .nav .nav-item .nav-link.active, .bg-black .nav .nav-item .nav-link:hover, [class*='bg-dark'] .nav .nav-item .nav-link.active, [class*='bg-dark'] .nav .nav-item .nav-link:hover, [class*='bg-gradient-'] .nav .nav-item .nav-link.active, [class*='bg-gradient-'] .nav .nav-item .nav-link:hover, [class*='bg-color-'] .nav .nav-item .nav-link.active, [class*='bg-color-'] .nav .nav-item .nav-link:hover {
+    color: #143d75;
+}
+
+.text-dark {
+    --bs-text-opacity: 1;
+    color: #143d75!important;
 }
